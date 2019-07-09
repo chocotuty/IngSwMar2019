@@ -5,6 +5,7 @@ Actividad 2: Uso de herramientas de administración de la configuración
 Seleccione una herramienta de administración de la configuración en versión web, como GIT, subversión u otras similares y desarrolle las siguientes actividades:
 
 A.	Si no tiene, cree una cuenta.
+
 B.	Cree un proyecto en el repositorio denominado ingSWoct2018, con acceso público
 C.	Suba en él varios tipos de archivos de configuración de acuerdo al siguiente detalle:
 
