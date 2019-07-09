@@ -1,28 +1,19 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package primos;
 
+package primos;
 import java.util.Scanner;
 
-/**
- *
- * @author mauricio
- */
 public class Primos {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
      Scanner e = new Scanner(System.in);
-int n = e.nextInt();
+     
+     System.out.print("Ingrese la cantidad de números primos que desea mostrar:  ");
+     
+int x = e.nextInt();
 int c = 1;
 int p = 2;
 int d = 2;
-while (c <= n) {
+while (c <= x) {
    if (p % d == 0) {
       if (p == d) {
          System.out.print(p + ", ");
